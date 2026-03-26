@@ -14,49 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1773074415
+  lastShownTimestamp: 1774102050
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1773074415
+  checkedLastUpdateTimestamp: 1774102050
   lastQOTDResponse:
-    questionId: 279
-    questionText: 'What are the minimum requirements (array size) to draw a Mesh
-      Quad?
+    questionId: 283
+    questionText: 'Is there a problem with this code?
 
-      <p>Mesh mesh = new Mesh();</p>
+      <p>private void SetCameraFollowFunc(Func&lt;Vector3&gt;
+      cameraFollowFunc) { }</p>
 
-      <p>mesh.vertices = ???</p>
-
-      <p>mesh.uv
-      = ???</p>
-
-      <p>mesh.triangles = ???</p>'
-    answerA: 4 vertices, 4 uvs, 2 triangles
-    answerB: 4 vertices, 4 uvs, 6 triangles
-    answerC: 6 vertices, 3 uvs, 4 triangles
+      <p>SetCameraFollowFunc(() =&gt; new Vector3(1,
+      0, 0));</p>'
+    answerA: No
+    answerB: 'Should be: SetCameraFollowFunc(() =&#62; return new Vector3(1, 0, 0));'
+    answerC: 'Should be: SetCameraFollowFunc((Vector3(1, 0, 0)) =&#62; { });'
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1773074415
+  lastQotdTimestamp: 1774102050
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleMar26Audio.png
-    topText: Awesome HumbleBundle with thousands of SFX and Music, 99% OFF!
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleMar26Synty.png
+    topText: Synty Bundle! Awesome Low Poly Sci-Fi Assets and Anims!
     topLink: humblebundle
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1773074415
+  lastDynamicHeaderTimestamp: 1774102050
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1773074415
+  websiteLatestMessageTimestamp: 1774102050
   websiteLatestVideos:
     videos:
-    - youTubeId: nwW5UB_gBi8
-      title: How to make a living from Indie Dev WITHOUT a Hit!
-    - youTubeId: _QrcgWsr2PI
-      title: What is the FUTURE of Unity in 2026?
-    - youTubeId: PZnS3TwucQg
-      title: The Biggest Indie MISTAKE! (and 7 other tips)
-    - youTubeId: uNNz1kOsLVw
-      title: Steam's 30% Cut Isn't Even the Biggest Problem!
-  websiteLatestVideosTimestamp: 1773074415
+    - youTubeId: eC89Ypzj5vU
+      title: Unity 6.4 is OUT - What's NEW?!
+    - youTubeId: eC89Ypzj5vU
+      title: Unity 6.4 is OUT - What's NEW?!
+    - youTubeId: Ni85VfUCw6E
+      title: The STATE of VR in 2026!
+    - youTubeId: xvGRjPssGnw
+      title: Do NOT make this MISTAKE with your Games!
+  websiteLatestVideosTimestamp: 1774102050
